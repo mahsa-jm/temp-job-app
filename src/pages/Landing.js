@@ -15,9 +15,13 @@ const Landing = () => {
             job <span>tracking</span> app
           </h1>
           <p>
-            Crucifix narwhal street art asymmetrical, humblebrag tote bag pop-up
-            fixie raclette taxidermy craft beer. Brunch bitters synth, VHS
-            crucifix heirloom meggings bicycle rights.
+          Discover the path to your dream career with our innovative job tracking app! 
+          Designed to streamline your job search process, our app helps you search for
+           opportunities that align with your skills and aspirations. With advanced tracking features,
+            you can manage applications, set reminders for follow-ups, and receive real-time updates on
+             job postings. Say goodbye to the chaos of manual job hunting and embrace a more organized,
+              efficient way to find your perfect job. Let our app be your trusted companion on the journey 
+              to professional success!
           </p>
           <Link to='/register' className='btn btn-hero'>
             Login/Register
