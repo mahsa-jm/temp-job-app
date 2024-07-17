@@ -17,11 +17,12 @@ const JobsContainer = () => {
     searchType,
     sort,
   } = useSelector((store) => store.allJobs);
+  
   const dispatch = useDispatch();
 
   useEffect(() => {
     dispatch(getAllJobs());
-  }, [page, search, searchStatus, searchType, sort]);
+  }, [ dispatch, page, search, searchStatus, searchType, sort]);  // added dispatch
 
   if (isLoading) {
     return <Loading />;

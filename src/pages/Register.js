@@ -48,7 +48,7 @@ function Register() {
         navigate('/');
       }, 2000);
     }
-  }, [user]);
+  }, [user, navigate]);  //added navigate
   return (
     <Wrapper className='full-page'>
       <form className='form' onSubmit={onSubmit}>

@@ -58,7 +58,7 @@ const AddJob = () => {
         })
       );
     }
-  }, []);
+  }, [dispatch, isEditing, user.location]); //added to the dependency array
 
   return (
     <Wrapper>
